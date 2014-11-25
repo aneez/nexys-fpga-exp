@@ -1,7 +1,6 @@
 nexys-fpga-exp
 ==============
-
-my experiments with nexys fpga board
+My experiments with nexys fpga board
 
 To Do:
 1) Remove xilinx ISE generated files from the project
