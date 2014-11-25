@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/aneez/workspace/vLEDBlink/Counter.ncd
+OUTFILE=/home/aneez/workspace/vLEDBlink/Counter.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/aneez/workspace/vLEDBlink
+LICENSE=WebPack
+USER_INFO=210654274_0_0_926

@@ -1,0 +1,7 @@
+INFILE=/home/aneez/workspace/vLEDBlink/LEDBlink-routed.ncd
+OUTFILE=/home/aneez/workspace/vLEDBlink/LEDBlink.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/aneez/workspace/vLEDBlink
+LICENSE=WebPack
+USER_INFO=210654274_0_0_926
