@@ -1,0 +1,34 @@
+# 7 segment display
+#NET "sseg_cathode<0>" LOC = "L18"; # Bank = 1, Pin name = IO_L10P_1, Type = I/O, Sch name = CA
+#NET "sseg_cathode<1>" LOC = "F18"; # Bank = 1, Pin name = IO_L19P_1, Type = I/O, Sch name = CB
+#NET "sseg_cathode<2>" LOC = "D17"; # Bank = 1, Pin name = IO_L23P_1/HDC, Type = DUAL, Sch name = CC
+#NET "sseg_cathode<3>" LOC = "D16"; # Bank = 1, Pin name = IO_L23N_1/LDC0, Type = DUAL, Sch name = CD
+#NET "sseg_cathode<4>" LOC = "G14"; # Bank = 1, Pin name = IO_L20P_1, Type = I/O, Sch name = CE
+#NET "sseg_cathode<5>" LOC = "J17"; # Bank = 1, Pin name = IO_L13P_1/A6/RHCLK4/IRDY1, Type = RHCLK/DUAL, Sch name = CF
+#NET "sseg_cathode<6>" LOC = "H14"; # Bank = 1, Pin name = IO_L17P_1, Type = I/O, Sch name = CG
+#NET "sseg_cathode<7>" LOC = "C17"; # Bank = 1, Pin name = IO_L24N_1/LDC2, Type = DUAL, Sch name = DP
+
+NET "sseg_cathode<7>"  LOC = "C17"  ; 
+NET "sseg_cathode<6>"  LOC = "L18"  ;
+NET "sseg_cathode<5>"  LOC = "F18"  ;
+NET "sseg_cathode<4>"  LOC = "D17"  ;
+NET "sseg_cathode<3>"  LOC = "D16"  ;
+NET "sseg_cathode<2>"  LOC = "G14"  ;
+NET "sseg_cathode<1>"  LOC = "J17"  ;
+NET "sseg_cathode<0>"  LOC = "H14"  ;
+
+NET "sseg_anode<0>" LOC = "F17"; # Bank = 1, Pin name = IO_L19N_1, Type = I/O, Sch name = AN0
+NET "sseg_anode<1>" LOC = "H17"; # Bank = 1, Pin name = IO_L16N_1/A0, Type = DUAL, Sch name = AN1
+NET "sseg_anode<2>" LOC = "C18"; # Bank = 1, Pin name = IO_L24P_1/LDC1, Type = DUAL, Sch name = AN2
+NET "sseg_anode<3>" LOC = "F15"; # Bank = 1, Pin name = IO_L21P_1, Type = I/O, Sch name = AN3
+
+# 50 MHz clock
+NET "clk" LOC = "B8";
+
+NET "greset" LOC = "B18";
+
+
+#NET "sw<0>" LOC = "G18";
+#NET "sw<1>" LOC = "H18";
+#NET "sw<2>" LOC = "K18";
+#NET "sw<3>" LOC = "K17";

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/aneez/workspace/vSevenSegmentDisplay/ssg_display.ncd
+OUTFILE=/home/aneez/workspace/vSevenSegmentDisplay/ssg_display.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/aneez/workspace/vSevenSegmentDisplay
+LICENSE=WebPack
+USER_INFO=210654274_0_0_926
