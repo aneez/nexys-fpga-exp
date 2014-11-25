@@ -1,4 +1,5 @@
 nexys-fpga-exp
 ==============
 
-experiments with nexys fpga board
+my experiments with nexys fpga board
+
